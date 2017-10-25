@@ -1,0 +1,11 @@
+実行方法 and References
+
+macの場合
+> gcc -framework OpenGL -framework GLUT -o run ./*.c
+> ./run
+
+
+音源
+・https://downloads.khinsider.com/game-soundtracks/album/super-mario-64-soundtrack/06-slider.mp3
+・http://themushroomkingdom.net/media/sm64/wav
+
