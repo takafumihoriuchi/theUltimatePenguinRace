@@ -155,25 +155,6 @@ void drawCoin(void)
 		glPopMatrix();
 	}
 	glPopMatrix();
-
-	/*
-	//model of higher quality coin
-	int i;
-	for(i = 0; i < coinIndex; i++){
-		glPushMatrix();
-		glTranslatef(coinList[i][0], coinList[i][1], coinList[i][2]+1);
-		glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, coingold);
-		glTranslatef(0.0, 0.0, 0.2);
-		glScalef(0.8, 0.8, 0.8);
-		glRotatef(90, 1, 0, 0);
-		glRotatef(rcoin, 0,1,0); //rotation of coin
-		cylinder(0.1, 0.3, 6);
-		glutSolidTorus(0.07, 0.4, 50, 50);
-		glRotatef(90, 1, 0, 0);
-		cylinder(0.4, 0.05, 50);
-		glPopMatrix();
-	}
-	*/
 }
 
 void drawPenguin(void)
