@@ -31,7 +31,7 @@ void drawMario(void)
 			glMaterialfv(GL_FRONT, GL_DIFFUSE, red);
 			glMaterialfv(GL_FRONT, GL_AMBIENT, red);
 			glMaterialfv(GL_FRONT, GL_SPECULAR, red);
-			glMaterialf(GL_FRONT, GL_SHININESS, 0.0);
+			glMaterialf(GL_FRONT, GL_SHININESS, 0);
 			glTranslatef(0.0, 1.9, 0.0);
 			glScalef(1.2, 0.4, 1.0);
 			glutSolidSphere(2.2, 6, 6); //back of hat

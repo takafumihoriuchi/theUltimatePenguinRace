@@ -6,9 +6,7 @@
 #include <time.h>
 #include "head.h"
 #include "sliderPixel.h"
-
-//system-calls
-#include <unistd.h>
+#include <unistd.h> //system-calls below
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <sys/stat.h>
@@ -42,8 +40,7 @@ double tekiList[][3] = { //障害物の配置座標のリスト。
 		{ 12.0, 240.0, 0.0 },
 		{ 11.0, 340.0, 0.0 },
 		{ 12.0, 101.0, 0.0 }, 
-		{ 5.0, 160.0, 0.0 },
-	};
+		{ 5.0, 160.0, 0.0 }, };
 int tekiIndex = 8; //障害物の個数
 double coinList[][3] = { //コインの配置座標のリスト。ランダムに変更？
 		{ 1.0, 3.0, 0.7 },
