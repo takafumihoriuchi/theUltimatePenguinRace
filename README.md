@@ -3,6 +3,3 @@ Inspired by "Penguin Champion Race" in Nintendo's "Super Mario 64", the aim of t
 To run, simply type "./run" if you are using macOS X.  
 (incomplete, functions not yet implemented)  
 Installation of OpenGL is also required
-
-### screenshot:
-![alt text](https://github.com/takafumihoriuchi/theUltimatePenguinRace/blob/master/shot.png)
